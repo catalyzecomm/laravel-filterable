@@ -27,7 +27,7 @@ abstract class Filter
      */
     public function handle($request, Closure $next)
     {
-        if (!Request::has($this->getRequestKey())) {
+        if (!Request::has($this->getRequestKey()) || $this->getRequest() == null) {
             return $next($request);
         }
 
