@@ -1,0 +1,31 @@
+{
+  "name": "koyanyaroo/laravel-filterable",
+  "description": "A Simple filter library for laravel",
+  "keywords": [
+    "laravel-filterable",
+    "laravel",
+    "filter"
+  ],
+  "homepage": "https://github.com/koyanyaroo/laravel-filterable",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "illuminate/http": "^7.27",
+    "illuminate/support": "^7.27",
+    "illuminate/pipeline": "^7.27",
+    "illuminate/database": "^7.27"
+  },
+  "autoload": {
+    "psr-4": {
+      "Koyanyaroo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Fajar Budhi Iswanda",
+      "email": "koyanyaroo@gmail.com",
+      "homepage": "https://iswanda.com",
+      "role": "Developer"
+    }
+  ]
+}
