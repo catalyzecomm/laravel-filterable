@@ -1,5 +1,7 @@
 # Laravel Filterable
 
+[![StyleCI](https://github.styleci.io/repos/292645607/shield?style=flat&branch=master)](https://github.styleci.io/repos/292645607?branch=master)
+
 After watching [Laravel 6 Advanced - e7 - Repository Pattern](https://www.youtube.com/watch?v=93ZhGkFIwbA&t=751s)
 I decide to make my internal Filterable package, in order to be able to reused the package in my internal projects
 This package allows you to easily handle database filtering through query strings. 
