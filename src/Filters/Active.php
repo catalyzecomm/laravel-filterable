@@ -5,9 +5,7 @@ namespace Koyanyaroo\Filters;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class Active
- *
- * @package Koyanyaroo\Filters
+ * Class Active.
  */
 class Active extends Filter
 {
@@ -16,9 +14,9 @@ class Active extends Filter
         $this->fieldName = $fieldName;
     }
 
-	/**
-	 * @inheritDoc
-	 */
+    /**
+     * {@inheritdoc}
+     */
     protected function applyFilter(Builder $builder)
     {
         return $builder->where($this->getFieldName(), $this->getRequest());

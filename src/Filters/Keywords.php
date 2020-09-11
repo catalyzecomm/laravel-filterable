@@ -5,9 +5,7 @@ namespace Koyanyaroo\Filters;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class Keywords
- *
- * @package Koyanyaroo\Filters
+ * Class Keywords.
  */
 class Keywords extends Filter
 {
@@ -16,14 +14,14 @@ class Keywords extends Filter
         $this->fieldName = $fieldName;
     }
 
-	/**
-	 * @inheritDoc
-	 */
+    /**
+     * {@inheritdoc}
+     */
     protected function applyFilter(Builder $builder)
     {
-        return $builder->where(function($query) {
+        return $builder->where(function ($query) {
             collect(explode(',', $this->fieldName))->each(function ($fieldName) use ($query) {
-                $query->orWhere(trim($fieldName),'like', '%'.$this->getRequest().'%');
+                $query->orWhere(trim($fieldName), 'like', '%'.$this->getRequest().'%');
             });
         });
     }
