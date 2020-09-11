@@ -2,13 +2,10 @@
 
 namespace Koyanyaroo\Filters;
 
-
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class Sort
- *
- * @package Koyanyaroo\Filters
+ * Class Sort.
  */
 class Sort extends Filter
 {
@@ -17,9 +14,9 @@ class Sort extends Filter
         $this->fieldName = $fieldName;
     }
 
-	/**
-	 * @inheritDoc
-	 */
+    /**
+     * {@inheritdoc}
+     */
     protected function applyFilter(Builder $builder)
     {
         return $builder->orderBy($this->fieldName, $this->getRequest());
