@@ -53,7 +53,7 @@ trait Filterable
      *
      * @return array
      */
-    protected static function publishFilters()
+    protected static function publishFilters(): array
     {
         return collect(static::$allowedFilters)->map(function ($fieldName, $filterClass) {
             return new $filterClass(is_array($fieldName) ? implode(',', $fieldName) : $fieldName);
