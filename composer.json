@@ -1,12 +1,13 @@
 {
-  "name": "koyanyaroo/laravel-filterable",
+  "name": "catalyzecomm/laravel-filterable",
   "description": "A Simple filter library for laravel",
   "keywords": [
     "laravel-filterable",
     "laravel",
-    "filter"
+    "filter",
+    "catalyzecomm"
   ],
-  "homepage": "https://github.com/koyanyaroo/laravel-filterable",
+  "homepage": "https://github.com/catalyzecomm/laravel-filterable",
   "license": "MIT",
   "require": {
     "php": "^7.2",
@@ -17,14 +18,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Koyanyaroo\\": "src/"
+      "Catalyzecomm\\": "src/"
     }
   },
   "authors": [
     {
       "name": "Fajar Budhi Iswanda",
-      "email": "koyanyaroo@gmail.com",
-      "homepage": "https://iswanda.com",
+      "email": "fajar@catalyzecommunications.com",
+      "homepage": "https://catalyzecommunications.com/",
       "role": "Developer"
     }
   ]
