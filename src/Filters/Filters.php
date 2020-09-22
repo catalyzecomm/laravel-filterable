@@ -1,6 +1,6 @@
 <?php
 
-namespace Koyanyaroo\Filters;
+namespace Catalyzecomm\Filters;
 
 use Closure;
 use Illuminate\Database\Eloquent\Builder;

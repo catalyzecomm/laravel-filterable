@@ -2,8 +2,6 @@
 
 [![StyleCI](https://github.styleci.io/repos/292645607/shield?style=flat&branch=master)](https://github.styleci.io/repos/292645607?branch=master)
 
-After watching [Laravel 6 Advanced - e7 - Repository Pattern](https://www.youtube.com/watch?v=93ZhGkFIwbA&t=751s)
-I decide to make my internal Filterable package, in order to be able to reused the package in my internal projects
 This package allows you to easily handle database filtering through query strings. 
 
 ## Installation
@@ -13,13 +11,13 @@ You can install the package via composer:
 for Laravel 7.x
 
 ```bash
-composer require koyanyaroo/laravel-filterable
+composer require catalyzecomm/laravel-filterable
 ```
 
 for Laravel 6.x
 
 ```bash
-composer require koyanyaroo/laravel-filterable:^0.0.3
+composer require catalyzecomm/laravel-filterable:^0.0.3
 ```
 
 ## Introduction
@@ -29,7 +27,7 @@ Introduction here
 ### Usage
 Define your model
 ```php
-    use Koyanyaroo\Filterable;
+    use Catalyzecomm\Filterable;
 
     ...
 
@@ -40,8 +38,8 @@ Define your model
      * @var array
      */
     protected static $allowedFilters = [
-        Koyanyaroo\Filters\Sort::class => 'created_at',
-        Koyanyaroo\Filters\Keywords::class => 'name,email',
+        Catalyzecomm\Filters\Sort::class => 'created_at',
+        Catalyzecomm\Filters\Keywords::class => 'name,email',
     ];
 ```
 
@@ -56,7 +54,7 @@ or
 
 ## Credits
 
-- [koyan](https://github.com/koyanyaroo)
+- [catalyzecomm](https://github.com/catalyzecomm)
 
 ## License
 

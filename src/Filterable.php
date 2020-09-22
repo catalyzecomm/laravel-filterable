@@ -1,6 +1,6 @@
 <?php
 
-namespace Koyanyaroo;
+namespace Catalyzecomm;
 
 use Illuminate\Pipeline\Pipeline;
 
