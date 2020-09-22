@@ -1,6 +1,6 @@
 # Laravel Filterable
 
-[![StyleCI](https://github.styleci.io/repos/292645607/shield?style=flat&branch=master)](https://github.styleci.io/repos/292645607?branch=master)
+[![StyleCI](https://github.styleci.io/repos/297788666/shield?branch=master)](https://github.styleci.io/repos/297788666?branch=master)
 
 This package allows you to easily handle database filtering through query strings. 
 
