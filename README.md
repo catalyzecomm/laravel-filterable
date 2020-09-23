@@ -22,7 +22,7 @@ composer require catalyzecomm/laravel-filterable
 Introduction here
 
 ### Usage
-Define your model (use `Filerable` Trait and define `$allowedFilters`)
+Define your model (use `Catalyzecomm\Filterable` Trait and define `$allowedFilters`)
 ```php
     use Catalyzecomm\Filterable;
 
