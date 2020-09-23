@@ -1,6 +1,9 @@
 # Laravel Filterable
 
-[![StyleCI](https://github.styleci.io/repos/297788666/shield?branch=master)](https://github.styleci.io/repos/297788666?branch=master)
+[![StyleCI](https://github.styleci.io/repos/297788666/shield?style=flat&branch=master)](https://github.styleci.io/repos/297788666?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/catalyzecomm/laravel-filterable/v)](//packagist.org/packages/catalyzecomm/laravel-filterable)
+[![License](https://poser.pugx.org/catalyzecomm/laravel-filterable/license)](//packagist.org/packages/catalyzecomm/laravel-filterable)
+[![Total Downloads](https://poser.pugx.org/catalyzecomm/laravel-filterable/downloads)](//packagist.org/packages/catalyzecomm/laravel-filterable)
 
 This package allows you to easily handle database filtering through query strings. 
 
