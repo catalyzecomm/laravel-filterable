@@ -22,7 +22,7 @@ composer require catalyzecomm/laravel-filterable
 Introduction here
 
 ### Usage
-Define your model
+Define your model (use `Filerable` Trait and define `$allowedFilters`)
 ```php
     use Catalyzecomm\Filterable;
 
@@ -40,7 +40,7 @@ Define your model
     ];
 ```
 
-Use on you controller
+Use on your controller
 ```php
     $users = User::filterPaginate();
 ```
