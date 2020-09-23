@@ -11,16 +11,10 @@ This package allows you to easily handle database filtering through query string
 
 You can install the package via composer:
 
-for Laravel 7.x
+for Laravel 6.x & 7.x
 
 ```bash
 composer require catalyzecomm/laravel-filterable
-```
-
-for Laravel 6.x
-
-```bash
-composer require catalyzecomm/laravel-filterable:^0.0.3
 ```
 
 ## Introduction
